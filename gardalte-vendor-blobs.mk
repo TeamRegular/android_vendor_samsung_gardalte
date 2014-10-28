@@ -30,6 +30,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gardalte/proprietary/app/mcRegistry/ffffffff000000000000000000000018.tlbin:system/app/mcRegistry/ffffffff000000000000000000000018.tlbin \
     vendor/samsung/gardalte/proprietary/app/mcRegistry/ffffffffd00000000000000000000004.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000004.tlbin \
     vendor/samsung/gardalte/proprietary/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin \
+    vendor/samsung/gardalte/proprietary/bin/at_distributor:system/bin/at_distributor \
     vendor/samsung/gardalte/proprietary/bin/bintvoutservice:system/bin/bintvoutservice \
     vendor/samsung/gardalte/proprietary/bin/cbd:system/bin/cbd \
     vendor/samsung/gardalte/proprietary/bin/gps.cer:system/bin/gps.cer \
@@ -38,8 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gardalte/proprietary/bin/lpm:system/bin/lpm \
     vendor/samsung/gardalte/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
     vendor/samsung/gardalte/proprietary/bin/rild:system/bin/rild \
-    vendor/samsung/gardalte/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
-    vendor/samsung/gardalte/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
+    vendor/samsung/gardalte/proprietary/csc/sales_code.dat:system/csc/sales_code.dat \
     vendor/samsung/gardalte/proprietary/etc/ExynosOMXReg.conf:system/etc/ExynosOMXReg.conf \
     vendor/samsung/gardalte/proprietary/etc/mdppwlist:system/etc/mdppwlist \
     vendor/samsung/gardalte/proprietary/etc/PDC.ini:system/etc/PDC.ini \
@@ -63,11 +63,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gardalte/proprietary/lib/hw/nfc.universal3470.so:system/lib/hw/nfc.universal3470.so \
     vendor/samsung/gardalte/proprietary/lib/hw/sensors.universal3470.so:system/lib/hw/sensors.universal3470.so \
     vendor/samsung/gardalte/proprietary/lib/libakm.so:system/lib/libakm.so \
-    vendor/samsung/gardalte/proprietary/lib/libarcsoft_flawlessface.so:system/lib/libarcsoft_flawlessface.so \
-    vendor/samsung/gardalte/proprietary/lib/libarcsoft_night_shot.so:system/lib/libarcsoft_night_shot.so \
-    vendor/samsung/gardalte/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
-    vendor/samsung/gardalte/proprietary/lib/libarcsoft_sensorndk.so:system/lib/libarcsoft_sensorndk.so \
-    vendor/samsung/gardalte/proprietary/lib/libarcsoft_skin_soften.so:system/lib/libarcsoft_skin_soften.so \
+    vendor/samsung/gardalte/proprietary/lib/libatparser.so:system/lib/libatparser.so \
     vendor/samsung/gardalte/proprietary/lib/libaudiopolicy_sec.so:system/lib/libaudiopolicy_sec.so \
     vendor/samsung/gardalte/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
     vendor/samsung/gardalte/proprietary/lib/libaudiosa.so:system/lib/libaudiosa.so \
@@ -91,6 +87,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gardalte/proprietary/lib/libexynosutils.so:system/lib/libexynosutils.so \
     vendor/samsung/gardalte/proprietary/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
     vendor/samsung/gardalte/proprietary/lib/libExynosVideoApi.so:system/lib/libExynosVideoApi.so \
+    vendor/samsung/gardalte/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
+    vendor/samsung/gardalte/proprietary/lib/libfimg.so:system/lib/libfimg.so \
     vendor/samsung/gardalte/proprietary/lib/libgdmcprov.so:system/lib/libgdmcprov.so \
     vendor/samsung/gardalte/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
     vendor/samsung/gardalte/proprietary/lib/libhdmimodule.so:system/lib/libhdmimodule.so \
@@ -105,6 +103,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gardalte/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
     vendor/samsung/gardalte/proprietary/lib/libmpp.so:system/lib/libmpp.so \
     vendor/samsung/gardalte/proprietary/lib/libmysound.so:system/lib/libmysound.so \
+    vendor/samsung/gardalte/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
     vendor/samsung/gardalte/proprietary/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
     vendor/samsung/gardalte/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/gardalte/proprietary/lib/lib_SA_GoogleFX_ver119k.so:system/lib/lib_SA_GoogleFX_ver119k.so \
@@ -123,6 +122,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gardalte/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
     vendor/samsung/gardalte/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/samsung/gardalte/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
+    vendor/samsung/gardalte/proprietary/lib/libvirtualdisplaymodule.so:system/lib/libvirtualdisplaymodule.so \
     vendor/samsung/gardalte/proprietary/lib/libvirtualdisplay.so:system/lib/libvirtualdisplay.so \
     vendor/samsung/gardalte/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
     vendor/samsung/gardalte/proprietary/lib/libwvm.so:system/lib/libwvm.so \
