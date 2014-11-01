@@ -66,7 +66,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gardalte/proprietary/lib/libatparser.so:system/lib/libatparser.so \
     vendor/samsung/gardalte/proprietary/lib/libaudiopolicy_sec.so:system/lib/libaudiopolicy_sec.so \
     vendor/samsung/gardalte/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
-    vendor/samsung/gardalte/proprietary/lib/libaudiosa.so:system/lib/libaudiosa.so \
     vendor/samsung/gardalte/proprietary/lib/libcontrolcsc.so:system/lib/libcontrolcsc.so \
     vendor/samsung/gardalte/proprietary/lib/libcsc.so:system/lib/libcsc.so \
     vendor/samsung/gardalte/proprietary/lib/libcurl.so:system/lib/libcurl.so \
@@ -106,7 +105,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gardalte/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
     vendor/samsung/gardalte/proprietary/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
     vendor/samsung/gardalte/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/samsung/gardalte/proprietary/lib/lib_SA_GoogleFX_ver119k.so:system/lib/lib_SA_GoogleFX_ver119k.so \
     vendor/samsung/gardalte/proprietary/lib/lib_Samsung_AudioZoom_v100.so:system/lib/lib_Samsung_AudioZoom_v100.so \
     vendor/samsung/gardalte/proprietary/lib/libsamsungRecord_ns.so:system/lib/libsamsungRecord_ns.so \
     vendor/samsung/gardalte/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
