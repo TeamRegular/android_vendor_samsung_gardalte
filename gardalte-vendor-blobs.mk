@@ -172,7 +172,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gardalte/proprietary/vendor/lib/hw/hwcomposer.exynos3.so:system/vendor/lib/hw/hwcomposer.exynos3.so \
     vendor/samsung/gardalte/proprietary/vendor/lib/hw/keystore.exynos3.so:system/vendor/lib/hw/keystore.exynos3.so \
     vendor/samsung/gardalte/proprietary/vendor/lib/hw/lights.exynos3.so:system/vendor/lib/hw/lights.exynos3.so \
-    vendor/samsung/gardalte/proprietary/vendor/lib/hw/power.exynos3.so:system/vendor/lib/hw/power.exynos3.so \
     vendor/samsung/gardalte/proprietary/vendor/lib/liblvverx_3.21.15.so:system/vendor/lib/liblvverx_3.21.15.so \
     vendor/samsung/gardalte/proprietary/vendor/lib/liblvvetx_3.21.15.so:system/vendor/lib/liblvvetx_3.21.15.so \
     vendor/samsung/gardalte/proprietary/vendor/lib/liblvvetx.so:system/vendor/lib/liblvvetx.so \
